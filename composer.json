@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/format_designer",
+  "description": "Designer — Composer/Packagist mirror of the Moodle plugin format_designer, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-format",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/format_designer",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "4.4.* || 4.5.* || 5.0.* || 5.1.*"
+  },
+  "extra": {
+    "installer-name": "designer",
+    "moodle-composer": {
+      "component": "format_designer"
+    }
+  }
+}
